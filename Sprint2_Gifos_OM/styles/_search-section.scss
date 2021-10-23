@@ -1,0 +1,39 @@
+.search-section {
+    background-color: var(--background-primary-color);
+    .subsection-results {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        #line {
+            width: 160px;
+            margin: 0 auto 43px auto;
+            border: calc(0.5px) solid var(--layout-third-color);
+        }
+
+        h2 {
+            line-height: 40px;
+            font-size: 25px;
+            margin-bottom: 27px;
+            text-align: center;
+            font-family: var(--font-Montserrat);
+            color: var(--font-primary-color);
+        }
+
+
+        .results-container{
+            width: 360px;
+            display: flex;
+            flex-flow: row wrap;
+            figure {
+                margin: 10px;
+                width: 156px;
+                img {
+                width: 156px;
+                height: 120px;
+                // margin: 11px;
+                object-fit: cover;
+                }
+            }
+        }
+    }    
+}
